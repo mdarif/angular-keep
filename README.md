@@ -100,6 +100,14 @@ Now browse to the app at `http://localhost:8000/`.
         filtersSpec.js          --> specs for filters
         servicesSpec.js         --> specs for services
 
+## Testing
+
+    # Run unit tests automatically whenever app changes
+    `npm test` or `scripts/test.sh`
+
+    # Run end to end tests (requires web server to be running)
+    `scripts/e2e-test.sh`
+
 ## Contact
 
 For more information on AngularJS please check out http://angularjs.org/

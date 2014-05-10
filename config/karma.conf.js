@@ -17,7 +17,7 @@ module.exports = function(config) {
 
 	LogLevel: config.LOG_DEBUG,
 
-	browsers: ['Firefox'],
+	browsers: ['Chrome'],
 
 	junitReporter: {
 		outputFile: 'test_out/unit.xml',
