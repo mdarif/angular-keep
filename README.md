@@ -1,13 +1,55 @@
 # About
 
-This is a fork of [Angular Seed](https://github.com/angular/angular-seed) but with changes needed for requireJS support.
+This is a fork of [Angular RequireJS Seed](https://github.com/tnajdek/angular-requirejs-seed).
 
-* AngularJS 1.2.1
+* AngularJS 1.2.16
 * RequireJS 2.1.9
 * Full support for unit and e2e tests
 * Support for Karma Test Runner 0.10+ (formerly Testacular)
 
+## Getting Started
 
+To get you started you can simply clone the angular-keep repository and install the dependencies:
+
+### Clone angular-keep
+
+Clone the angular-keep repository using [git][git]:
+
+```
+git clone https://github.com/mdarif/angular-keep.git
+cd angular-keep
+```
+
+### Install Dependencies
+
+We have two kinds of dependencies in this project: tools and angular framework code.  The tools help
+us manage and test the application.
+
+* We get the tools we depend upon via `npm`, the [node package manager][npm].
+* We get the angular code via `bower`, a [client-side code package manager][bower].
+
+We have preconfigured `npm` to automatically run `bower` so we can simply do:
+
+```
+npm install
+```
+
+Behind the scenes this will also call `bower install`.  You should find that you have two new
+folders in your project.
+
+* `node_modules` - contains the npm packages for the tools we need
+* `bower_components` - contains the angular framework files
+
+### Run the Application
+
+We have preconfigured the project with a simple development web server.  The simplest way to start
+this server is:
+
+```
+npm start
+```
+
+Now browse to the app at `http://localhost:8000/`.
 
 ## Directory Layout
 
