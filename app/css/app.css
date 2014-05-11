@@ -1,5 +1,10 @@
 /* app css stylesheet */
 
+body {
+  background: #e8e8e8;
+  color: #666;
+}
+
 .menu {
   list-style: none;
   border-bottom: 0.1em solid black;
@@ -27,4 +32,9 @@
 .menu > li:nth-child(1):before {
   content: "";
   padding: 0;
+}
+
+.add-note {
+  margin: 50px auto;  
+  width: 600px;
 }

@@ -1,18 +1,30 @@
 <!doctype html>
 <html lang="en" ng-app>
 	<head>
-		<title>Angular-RequireJS Keep</title>
+		<title>Angular-RequireJS Google Keep</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		
 		<link rel="stylesheet" type="text/css" media="all" href="app/css/app.css" />
 	</head>
-	<body >
-		<h1>AngularJS + RequireJS</h1>
-		<ul class="menu">
+	<body>
+		<h1>AngularJS + RequireJS Google Keep</h1>
+		<div class="wrapper">
+			<div class="add-note">
+				<textarea class="add-note" placeholder="Add note" maxlength="9999" aria-multiline="true" rows="1" style="overflow: hidden; height: 46px;" ng-focus="toggle = !toggle" ng-hide="toggle"></textarea>
+
+				<input type="text" ng-show="toggle" class="title" placeholder="Title" maxlength="9999" style="width: 600px; display: block" spellcheck="true">
+
+				<textarea ng-show="toggle" class="" placeholder="Note" maxlength="9999" aria-multiline="true" rows="1" style="overflow: hidden; height: 46px;" spellcheck="true"></textarea>
+
+				<input type="button" ng-show="toggle" value="Done" style="display: block" />
+			</div>
+		</div>
+		<span>{{toggle}}</span>
+<!-- 		<ul class="menu">
 			<li><a href="#/view1">View 1</a></li>
 			<li><a href="#/view2">View 2</a></li>
 		</ul>
-		<div ng-view></div>
+		<div ng-view></div> -->
 		<script data-main="app/js/main" src="/bower_components/requirejs/require.js"></script>		
 	</body>
 </html>
