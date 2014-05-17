@@ -1,3 +1,7 @@
+# Angular Keep
+
+[![Build Status][build-image]][build-url]   [![Dependency Status][dependencies-image]][dependencies-url]   [![License][license-image]][license-url]   [![Version][version-image]][version-url]
+
 # About
 
 This is a fork of [Angular RequireJS Seed](https://github.com/tnajdek/angular-requirejs-seed).
@@ -111,3 +115,15 @@ Now browse to the app at `http://localhost:8000/`.
 ## Contact
 
 For more information on AngularJS please check out http://angularjs.org/
+
+[build-image]:            http://img.shields.io/travis/mdarif/angular-keep.svg?style=flat
+[build-url]:              http://travis-ci.org/mdarif/angular-keep
+
+[dependencies-image]:     http://img.shields.io/gemnasium/mdarif/angular-keep.svg?style=flat
+[dependencies-url]:       https://gemnasium.com/mdarif/angular-keep
+
+[license-image]:          http://img.shields.io/badge/license-MIT-blue.svg?style=flat
+[license-url]:            LICENSE
+
+[version-image]:          http://img.shields.io/github/tag/mdarif/angular-keep.svg?style=flat
+[version-url]:            https://github.com/mdarif/angular-keep/tags
