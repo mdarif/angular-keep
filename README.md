@@ -6,8 +6,8 @@
 
 This is a fork of [Angular RequireJS Seed](https://github.com/tnajdek/angular-requirejs-seed).
 
-* AngularJS 1.2.16
-* RequireJS 2.1.9
+* AngularJS 1.2.23
+* RequireJS 2.1.14
 * Full support for unit and e2e tests
 * Support for Karma Test Runner 0.10+ (formerly Testacular)
 

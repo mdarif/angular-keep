@@ -47,3 +47,13 @@ body {
   margin: 50px auto;  
   width: 600px;
 }
+
+.title {
+  width: 600px; 
+  display: block
+}
+
+.note {
+  overflow: hidden; 
+  height: 46px;
+}

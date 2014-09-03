@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="myApp">
 	<head>
 		<title>Angular-RequireJS Google Keep</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,13 +10,13 @@
 		<h1>AngularJS + RequireJS Google Keep</h1>
 		<div class="wrapper">
 			<div class="add-note">
-				<textarea class="add-note" placeholder="Add note" maxlength="9999" aria-multiline="true" rows="1" style="overflow: hidden; height: 46px;" ng-focus="toggle = !toggle" ng-hide="toggle"></textarea>
+				<textarea class="add-note" placeholder="Add note" maxlength="9999" aria-multiline="true" rows="1" ng-focus="toggle = !toggle" ng-hide="toggle" my-focus="alert('vik');"></textarea>
 
-				<input type="text" ng-show="toggle" class="title" placeholder="Title" maxlength="9999" style="width: 600px; display: block" spellcheck="true">
+				<input type="text" ng-show="toggle" class="title" placeholder="Title" maxlength="9999" spellcheck="true">
 
-				<textarea ng-show="toggle" class="" placeholder="Note" maxlength="9999" aria-multiline="true" rows="1" style="overflow: hidden; height: 46px;" spellcheck="true"></textarea>
+				<textarea ng-show="toggle" class="note" placeholder="Note" maxlength="9999" aria-multiline="true" rows="1" spellcheck="true"></textarea>
 
-				<input type="button" ng-show="toggle" value="Done" style="display: block" />
+				<input type="button" ng-show="toggle" value="Done" />
 			</div>
 		</div>
 		<span>{{toggle}}</span>
